@@ -642,7 +642,8 @@ body {
     .ALBUMS5 a,
     .ALBUMS6 a {
         position: static;
-        width: auto;
+        width: 100%;
+        min-height: 38.4px;
         margin: 0 0 9px;
         padding: 0;
         transform: none;
@@ -650,6 +651,9 @@ body {
         top: auto;
         font-size: 16px;
         line-height: 1.2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .ALBUMS img,
